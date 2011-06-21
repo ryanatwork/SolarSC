@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" ?>
+<configuration>
+	<rooftoplayer>http://eos2/ArcGIS/rest/services/base_maps_noncached/AGS_base/MapServer/8</rooftoplayer>
+	<gpservice>http://eos2/ArcGIS/rest/services/SolarRadiation/GPServer/Points%20Solar%20Radiation%20Rooftop%20Calculator</gpservice>
+	<geometryservice>http://eos2/ArcGIS/rest/services/Geometry/GeometryServer</geometryservice>
+	<conversionfactor>0.092903</conversionfactor> <!-- factor to convert area of polygon from map units to square meters -->
+	<useAMF>false</useAMF> <!-- set this to false if using ArcGIS Server 9.3, not required for version 10.0 -->
+	<labels>
+		<descriptionlabel>Use a tool to select a rooftop or define an area</descriptionlabel>
+		<pointlabel>Select Rooftop</pointlabel>
+		<polygonlabel>Define Area</polygonlabel>
+		<clearlabel>Clear</clearlabel>
+		<loadinglabel>Calculating Solar Potential...</loadinglabel>
+		<chartlabel>Annual Solar Radiation: </chartlabel>
+	</labels>
+</configuration>
